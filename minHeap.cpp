@@ -48,7 +48,7 @@ struct MinHeap
 
     void insert(int key)
     {
-        heap[n] = key;
+        heap.push_back(key);
         n++;
         int i = n - 1;
 
